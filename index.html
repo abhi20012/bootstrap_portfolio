@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Personal Portfolio - Bootstrap 5</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body class="bg-light">
+
+  <nav class="navbar navbar-light fixed-top shadow-sm">
+    <div class="container-lg"> 
+      <a class="navbar-brand text-white portfolio fw-bold fs-4" href="#portfolio">Portfolio</a>
+      <div class="dropdown">
+        <button class="btn btn-secondary px-3" type="button" id="dropdownMenuButton1"
+          data-bs-toggle="dropdown" aria-expanded="false">
+          <i class="fas fa-bars"></i>
+        </button>
+        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
+          <li><a class="dropdown-item" href="#home">Home</a></li>
+          <li><a class="dropdown-item" href="#about">About</a></li>
+          <li><a class="dropdown-item" href="#services">Services</a></li>
+          <li><a class="dropdown-item" href="#portfolio">Portfolio</a></li>
+          <!-- <li><a class="dropdown-item" href="#testimonials">Testimonials</a></li> -->
+          <li><a class="dropdown-item" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<!--Home Section start -->
+  <section class="home py-5" id="home">
+    <div class="container-lg">
+      <div class="row min-vh-100 align-items-center align-content-center">
+        <div class="col-md-6 mt-5 mt-md-0">
+          <div class="home-img text-center">
+            <img src="./img/photo.jpg" class="rounded-circle mw-100" width="490px" alt="profile picture">
+          </div>
+        </div>
+        <div class="col-md-6 mt-5 mt-md-0 order-md-first">
+          <div class="home-text">
+            <p class="text-muted mb-1">Hello I'm</p>
+            <h1 class="text-uppercase fs-1 fw-bold" id="heading">Front-end Developer</h1>
+            <h2 class="fs-4">Abhinav Kashyap</h2>
+            <p class="mt-4 text-muted">I build interractive user-interfaces.</p>
+            <a href="#portfolio" class="btn button px-3 mt-3">My Work</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Home Section end -->
+
+  <!--About Section start -->
+  <section class="about py-5" id="about">
+    <div class="container-lg py-4">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="section-title text-center">
+            <h2 class="mb-5 fw-bold">About Me</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="about-text">
+            <h3 class="fs-4 mb-3">A small line of code matters a lot in your webpage.</h3>
+            <p class="text-muted">Hi, I'm <b>Abhinav Kashyap</b>, and I am pursuing B.tech from Hemwati Nandan Bahuguna Garhwal University, Srinagar, Uttarakhand with a degree in Computer Science and Engineering. My interests are in Front End Development, and I love to create beautiful and performant products with delightful user experiences.           
+              I'm interested in the Front End Engineer role because I like working in this ridesharing space and creating products to improve the lives of users.
+            </p>
+          </div>
+          <div class="row text-center text-uppercase my-3">
+            <div class="col-sm-4">
+              <div class="fact-item">
+                <h4 class="fs-1 fw-bold">8</h4>
+                <p class="text-muted">Project Completed</p>
+              </div>
+            </div>
+            <!-- <div class="col-sm-4">
+              <div class="fact-item">
+                <h4 class="fs-1 fw-bold">0</h4>
+                <p class="text-muted">Happy Clients</p>
+              </div>
+            </div> -->
+            <!-- <div class="col-sm-4">
+              <div class="fact-item">
+                <h4 class="fs-1 fw-bold">95</h4>
+                <p class="text-muted">Positive Reviews</p>
+              </div>
+            </div> -->
+          </div>
+          <div class="row">
+            <div class="col-lg-12 d-flex align-items-center">
+              <a href="https://drive.google.com/file/d/10sg3KgH6HShTxqz6YfgNrPoWqaQmOrsq/view?usp=sharing" target="_blank" class="btn button me-5 px-3">Download CV</a>
+              <div class="social-links">
+                <a href="https://www.facebook.com/abinav.kashyap.9" target="_blank" class="text-dark me-2"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://github.com/abhi20012" target="_blank" class="text-dark me-2"><i class="fab fa-github"></i></a>
+                <a href="https://www.instagram.com/k.abhinav0078/?hl=en" target="_blank" class="text-dark me-2"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/abhinav-kashyap-73559916a/" target="_blank" class="text-dark me-2"><i class="fab fa-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mt-5 mt-md-0">
+          <div class="skill-item mb-4">
+            <h3 class="fs-6">Html</h3>
+            <div class="progress" style="height: 5px;">
+              <div class="progress-bar bar" role="progressbar" style="width: 65%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="skill-item mb-4">
+            <h3 class="fs-6">CSS</h3>
+            <div class="progress" style="height: 5px;">
+              <div class="progress-bar bar" role="progressbar" style="width: 75%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="skill-item mb-4">
+            <h3 class="fs-6">Javascript</h3>
+            <div class="progress" style="height: 5px;">
+              <div class="progress-bar bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <h3 class="fs-6">Bootstrap</h3>
+            <div class="progress" style="height: 5px;">
+              <div class="progress-bar bar" role="progressbar" style="width: 90%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--About Section end -->
+
+  <!-- Services section start -->
+  <section class="services py-4" id="services">
+    <div class="container-lg py-4">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="section-title text-center">
+            <h2 class="mb-5 fw-bold">What I Do</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="services-item shadow-sm p-4 rounded bg-white">
+            <div class="icon my-3 icons fs-2">
+              <i class="fas fa-code"></i>
+            </div>
+            <h3 class="fs-5 py-2">Web Developer</h3>
+            <p class="text-muted">Can build Beautiful and Responsive webpages</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="services-item shadow-sm p-4 rounded bg-white">
+            <div class="icon my-3 icons fs-2 fw-bolder">
+              <svg xmlns="http://www.w3.org/2000/svg" height="35" width="35"  fill="currentColor" class="bi bi-braces-asterisk" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1.114 8.063V7.9c1.005-.102 1.497-.615 1.497-1.6V4.503c0-1.094.39-1.538 1.354-1.538h.273V2h-.376C2.25 2 1.49 2.759 1.49 4.352v1.524c0 1.094-.376 1.456-1.49 1.456v1.299c1.114 0 1.49.362 1.49 1.456v1.524c0 1.593.759 2.352 2.372 2.352h.376v-.964h-.273c-.964 0-1.354-.444-1.354-1.538V9.663c0-.984-.492-1.497-1.497-1.6ZM14.886 7.9v.164c-1.005.103-1.497.616-1.497 1.6v1.798c0 1.094-.39 1.538-1.354 1.538h-.273v.964h.376c1.613 0 2.372-.759 2.372-2.352v-1.524c0-1.094.376-1.456 1.49-1.456v-1.3c-1.114 0-1.49-.362-1.49-1.456V4.352C14.51 2.759 13.75 2 12.138 2h-.376v.964h.273c.964 0 1.354.444 1.354 1.538V6.3c0 .984.492 1.497 1.497 1.6ZM7.5 11.5V9.207l-1.621 1.621-.707-.707L6.792 8.5H4.5v-1h2.293L5.172 5.879l.707-.707L7.5 6.792V4.5h1v2.293l1.621-1.621.707.707L9.208 7.5H11.5v1H9.207l1.621 1.621-.707.707L8.5 9.208V11.5h-1Z"/>
+              </svg>
+            </div>
+            <h3 class="fs-5 py-2">Coding</h3>
+            <p class="text-muted">Additionally , I like to solve DSA problems which help me to grow my skills.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="services-item shadow-sm p-4 rounded bg-white">
+            <div class="icon my-3 icons fs-2">
+              <i class="fas fa-lightbulb"></i>
+            </div>
+            <h3 class="fs-5 py-2">Creative Front End Design</h3>
+            <p class="text-muted">Can design landing page as well as interractive UI's </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Services section end -->
+
+<!-- Portfolio section start -->
+
+<section class="portfolio py-5" id="portfolio">
+  <div class="container-lg py-4">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <div class="section-title text-center">
+          <h2 class="mb-5 fw-bold">My Wroks</h2>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 col-lg-4">
+        <div class="portfolio-item">
+          <img src="./img/portfolio/picture-1.png" alt="portfolio-item" class="w-100 img-thumbnail">
+          <h3 class="text-capitalize fs-5 my-2">Blog Post</h3>
+          <p class="mb-4"><a href="https://abhi20012.github.io/completed_one_month/week2/DIY1/index.html" target="_blank" class="demo text-decoration-none">Live Demo</a></p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="portfolio-item">
+          <img src="./img/portfolio/piture-2.png" alt="portfolio-item" class="w-100 img-thumbnail">
+          <h3 class="text-capitalize fs-5 my-2">Responsive Birthday Website</h3>
+          <p class="mb-4"><a href="https://abhi20012.github.io/completed_one_month/week3/Birthdaywebsite/index.html" class="demo text-decoration-none">Live Demo</a></p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="portfolio-item">
+          <img src="./img/portfolio/picture-3.png" alt="portfolio-item" class="w-100 img-thumbnail">
+          <h3 class="text-capitalize fs-5 my-2">Adopt a Dog</h3>
+          <p class="mb-4"><a href="https://abhi20012.github.io/completed_one_month/week4/aircnc/index.html" class="demo text-decoration-none">Live Demo</a></p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="portfolio-item">
+          <img src="./img/portfolio/picture-4.png" alt="portfolio-item" class="w-100 img-thumbnail">
+          <h3 class="text-capitalize fs-5 my-2">Starbucks Landing page</h3>
+          <p class="mb-4"><a href="https://abhi20012.github.io/My_html_css_projects/Starbucks/index.html" class="demo text-decoration-none">Live Demo</a></p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="portfolio-item">
+          <img src="./img/portfolio/picture-6.png" alt="portfolio-item" class="w-100 img-thumbnail">
+          <h3 class="text-capitalize fs-5 my-2">Pepsi Landing page</h3>
+          <p class="mb-4"><a href="https://abhi20012.github.io/My_html_css_projects/Pepsi/index.html" class="demo text-decoration-none">Live Demo</a></p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="portfolio-item">
+          <img src="./img/portfolio/picture-5.png" alt="portfolio-item" class="w-100 img-thumbnail">
+          <h3 class="text-capitalize fs-5 my-2">TODO Webpage</h3>
+          <p class="mb-4"><a href="https://abhi20012.github.io/to_do_list/index.html" class="demo text-decoration-none">Live Demo</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Portfolio section end -->
+
+<!-- Contact section start -->
+
+<section class="contact py-5" id="contact">
+  <div class="container-lg">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <div class="section-title text-center">
+          <h2 class="mb-5 fw-bold">Contact Me</h2>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-5">
+        <div class="contact-item d-flex mb-3">
+          <div class="icon fs-4 icons">
+            <i class="fas fa-envelope"></i>
+          </div>
+          <div class="text ms-3">
+            <h3 class="fs-5">Email</h3>
+            <p class="text-muted">kashyapabhinav777@gmail.com</p>
+          </div>
+        </div>
+        <div class="contact-item d-flex mb-3">
+          <div class="icon fs-4 icons">
+            <i class="fas fa-phone"></i>
+          </div>
+          <div class="text ms-3">
+            <h3 class="fs-5">Phone</h3>
+            <p class="text-muted">91 9027 359 376</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-7">
+        <div class="contact-form">
+          <form action="">
+            <div class="row">
+              <div class="col-lg-6 mb-4">
+                <input type="text" placeholder="Your Name" class="form-control form-control-lg fs-6 border-0 shadow-sm">
+              </div>
+              <div class="col-lg-6 mb-4">
+                <input type="text" placeholder="Your Email" class="form-control form-control-lg fs-6 border-0 shadow-sm">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-12 mb-4">
+                <input type="text" placeholder="Subject" class="form-control form-control-lg fs-6 border-0 shadow-sm">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-12 mb-4">
+                <textarea rows="5" type="text" placeholder="Your words!!?" class="form-control form-control-lg fs-6 border-0 shadow-sm"></textarea>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-12">
+                <button type="submit" class="btn button">Send Message</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact section end -->
+
+<!-- Footer Section start -->
+
+<footer class="footer border-top py-4">
+  <div class="container-lg text-center">
+    <div class="row">
+      <div class="col-lg-12">
+        <p class="text-muted">Hire me as a <i>Front-end Developer</i></p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Footer Section end -->
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
